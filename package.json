@@ -1,0 +1,25 @@
+{
+  "name": "tanbt-nodejs-for-php-developers",
+  "version": "0.0.1",
+  "description": "My first practice following Node.js for PHP developers ebook",
+  "main": "httpsvr.js",
+  "scripts": {
+    "test": "mytest --spec --isolate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trungtan/node.js-practice.git"
+  },
+  "keywords": [
+    "node.js",
+    "beginner"
+  ],
+  "dependencies": {
+    "node-static": "0.7.7"
+  },
+  "author": "Tan Bui <trungtanbui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trungtan/node.js-practice/issues"
+  }
+}
