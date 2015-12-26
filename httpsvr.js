@@ -8,5 +8,5 @@ var svr = http.createServer(function (request, response) {
         file.serve(request, response);
     }).resume();
 });
-svr.listen(8080, 'localhost');
-console.log('Server running at http://localhost:8080/');
+svr.listen(8080, '0.0.0.0');
+console.log('Server running at http://0.0.0.0:8080/');
